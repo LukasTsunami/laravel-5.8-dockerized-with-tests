@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a98c6e58ce1ad8211f6c2c6508601a45",
+    "content-hash": "ea190527b5a94fa2bd42628a78e83be1",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -3385,6 +3385,144 @@
                 "instantiate"
             ],
             "time": "2019-10-21T16:45:58+00:00"
+        },
+        {
+            "name": "eloquent/phony",
+            "version": "4.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/eloquent/phony.git",
+                "reference": "eabc78a62b88c31f7b2c1a142e16d918fe833782"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/eloquent/phony/zipball/eabc78a62b88c31f7b2c1a142e16d918fe833782",
+                "reference": "eabc78a62b88c31f7b2c1a142e16d918fe833782",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "eloquent/code-style": "^1.0",
+                "eloquent/phpstan-phony": "^0.7-dev",
+                "errors/exceptions": "^0.2",
+                "ext-pdo": "*",
+                "friendsofphp/php-cs-fixer": "^2",
+                "hamcrest/hamcrest-php": "^2",
+                "phpstan/extension-installer": "^1",
+                "phpstan/phpstan": "^0.12",
+                "phpstan/phpstan-phpunit": "^0.12",
+                "phpunit/phpunit": "^7 || ^8 <8.3.0 || ^8.3.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Eloquent\\Phony\\": "src"
+                },
+                "files": [
+                    "src/initialize.php",
+                    "src/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Erin Millard",
+                    "email": "ezzatron@gmail.com",
+                    "homepage": "http://ezzatron.com/"
+                }
+            ],
+            "description": "Mocks, stubs, and spies for PHP.",
+            "homepage": "http://eloquent-software.com/phony/",
+            "keywords": [
+                "Double",
+                "Dummy",
+                "fake",
+                "mock",
+                "mocking",
+                "spy",
+                "stub",
+                "stubbing",
+                "test"
+            ],
+            "time": "2019-12-31T10:57:26+00:00"
+        },
+        {
+            "name": "eloquent/phony-kahlan",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/eloquent/phony-kahlan.git",
+                "reference": "393d407ce179e9ea29d86814d5808f61dbbdb5ab"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/eloquent/phony-kahlan/zipball/393d407ce179e9ea29d86814d5808f61dbbdb5ab",
+                "reference": "393d407ce179e9ea29d86814d5808f61dbbdb5ab",
+                "shasum": ""
+            },
+            "require": {
+                "eloquent/phony": "^4",
+                "kahlan/kahlan": "^4",
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "eloquent/code-style": "^1",
+                "eloquent/phpstan-phony": "^0.7",
+                "errors/exceptions": "^0.2",
+                "friendsofphp/php-cs-fixer": "^2",
+                "phpstan/extension-installer": "^1",
+                "phpstan/phpstan": "^0.12"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Eloquent\\Phony\\Kahlan\\": "src"
+                },
+                "files": [
+                    "src/initialize.php",
+                    "src/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Erin Millard",
+                    "email": "ezzatron@gmail.com",
+                    "homepage": "http://ezzatron.com/"
+                }
+            ],
+            "description": "Phony for Kahlan.",
+            "homepage": "http://eloquent-software.com/phony/",
+            "keywords": [
+                "Double",
+                "Dummy",
+                "fake",
+                "mock",
+                "mocking",
+                "spy",
+                "stub",
+                "stubbing",
+                "test"
+            ],
+            "time": "2020-01-05T23:50:22+00:00"
         },
         {
             "name": "filp/whoops",
